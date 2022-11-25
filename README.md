@@ -6,7 +6,7 @@ A generic model for text classification assisted by image generation
 
 通过下述几步可以直接将该模型应用到下游任务中：
 
-1.从“https://huggingface.co/CompVis/stable-diffusion-v1-4/tree/main” 下载stable_diffusion模型，并将其全部存放到TCIG\stable_diffusion文件夹下。
+1.在TCIG下新建stable_diffusion的文件夹，从“https://huggingface.co/CompVis/stable-diffusion-v1-4/tree/main” 下载stable_diffusion模型，并存放到TCIG\stable_diffusion文件夹下。
 
 2.将数据集按照我们给的样例的形式存储到 CLIP_fusion_mul\text_data中。
 
